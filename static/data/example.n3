@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.wikidata.org/prop/> .
+@prefix ns2: <http://omeka.org/s/vocabs/o#> .
+@prefix ns3: <https://wendang-project.github.io/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<"api_uri"> a ns2:Item,
+        <http://www.wikidata.org/entity/Q4502142> ;
+    ns3:artwork-type <https://www.wikidata.org/entity/Q836862> ;
+    ns3:description """"Drink Alone Under the Moon; Raise a Wine Glass to Ask the Sky  are two installation works realized in 2019 by Wang Dongling . The artist used bright red acrylic on a six-fold screen of gold leaf to write two poems of Li Bai 李白 (701-762), namely "Drinking alone under the Moon (Yue xia duzhuo 月下独酌) and “Raise a Wine Glass to Ask the Sky" (Ba jiu wen tian 把酒问天) using his Chaos Script (luanshu 乱书) on a golden leaf screen of 1.7 meters high and 3.6 meters long. The screen is slightly folded and stands on a stainless steel plate of 1 meter wide and 4 meters long, so that the golden screen and the red writings reflect in it, mirroring and integrating  the viewers into the work in a continuosly changing dialogue with the artwork.
+Wang Dongling used the same  two poems by Li Bai in 2016 when he realized a previous  hanging scroll with black ink on white paper, measuring  275cm×1870cm."""@en ;
+    ns3:has-seal "No"@en ;
+    ns3:has-unit <"api_uri"> ;
+    ns1:P1071 <https://www.wikidata.org/entity/Q4970> ;
+    ns1:P1476 "Drink Alone Under the Moon ; Raise a Wine Glass to Ask the Sky  (月下独酌; 把酒问天)"@en,
+        "Yuè xià dúzhuó; bǎ jiǔ wèn tiān"@zh-Latn,
+        "《月下独酌》;《把酒问天》"@zh ;
+    ns1:P170 <"api_uri"> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q7071> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q1144689>,
+        <https://www.wikidata.org/entity/Q47769149>,
+        <https://www.wikidata.org/entity/Q929186> ;
+    ns1:P2048 "170 cm  (six-fold screen)" ;
+    ns1:P2049 "100 cm (steel plate)",
+        "360 cm (six-fold screen)" ;
+    ns1:P2079 <https://www.wikidata.org/entity/Q614467> ;
+    ns1:P2610 "400 cm (steel plate)" ;
+    ns1:P462 <https://www.wikidata.org/entity/Q165939>,
+        <https://www.wikidata.org/entity/Q208045>,
+        <https://www.wikidata.org/entity/Q3142> ;
+    ns1:P571 "2019"^^xsd:gYear ;
+    ns1:P608 <"api_uri">,
+        <"api_uri"> ;
+    ns1:P8570 "Yes"@en .
+
+<"api_uri"> a ns2:Item,
+        <http://www.wikidata.org/entity/Q43229> ;
+    ns3:description """Sanshang Contemporary Art Museum (San shang dangdai yishu guan 三尚当代艺术馆 is a museum of contemporary art located in Hangzhou. The director and chief curator of the museum is Chen Zijin 陈子劲.
+"""@en ;
+    ns3:organisation-type <https://www.wikidata.org/wiki/Q33506> ;
+    ns3:wikidata-resource "Sanshang Contemporary" ;
+    ns1:P2561 "Sanshang Contemporary Art Museum (San shang dangdai yishu guan 三尚当代艺术馆)"@en,
+        "San shang dangdai yishu guan "@zh-Latn,
+        "三尚当代艺术馆"@zh ;
+    ns1:P276 <https://www.wikidata.org/entity/Q4970> ;
+    ns1:P527 <"api_uri"> .
+
+<"api_uri"> a ns2:Item,
+        <http://www.wikidata.org/entity/Q184485> ;
+    ns3:calligrapher <"api_uri"> ;
+    ns3:creates-artwork <"api_uri"> ;
+    ns3:description """In occasion of the opening performance of his solo exhibition “From Inception: Wang Dongling 60 Years of Calligraphy" (从头开始 ——王冬龄书法艺术60年), Wang Dongling created an innovative piece titled "From Inception" (Cong Tou Kai Shi 从头开始 ). The artist combined traditional tools and material, i.e. the brush and the black ink on xuan paper, with modern technology. The artist used a full-body motion capture system (全身动作捕捉系统), also known as mo-cap suit (motion capture suit). This wearable device recorded Wang's body movements, converting them into digital data to create a unique digital work. This blending of classical calligraphy with contemporary digital technology showcased Wang's pioneering approach and the dynamic evolution of his art form over six decades.
+During the performance, 23 scrools forming the Dao De Jing have been used. These pieces consists of an installation featuring 23 massive scrolls with excerpts from the "Classic of the Way and Virtue" (Dao De Jing 道德经) written with black ink on xuan paper by the artist. These scrools, measuring 9 meters in length each and suspended at a height of 2.5 meters above the ground, descend from above and are arranged to create a visual reminiscent of an ancient forest of stone steles fallen from the sky. The monumental presence of these scrools with words of ancient wisdom imbues the space with a sense of vastness and weight."""@en ;
+    ns3:has-unit <"api_uri"> ;
+    ns3:performing-art-type <https://www.wikidata.org/wiki/Q213156> ;
+    ns3:uses-artwork <"api_uri"> ;
+    ns1:P1132 "1"^^<o-module-numeric-xsd:integer> ;
+    ns1:P1476 " From Inception: Wang Dongling 60 Years of Calligraphy (从头开始  : 王冬龄书法艺术60年)"@en,
+        "Cóngtóu kāishǐ : Wáng Dōnglíng shūfǎ yìshù 60 nián"@zh-Latn,
+        "从头开始  : 王冬龄书法艺术60年"@zh ;
+    ns1:P175 <"api_uri"> ;
+    ns1:P186 <http://www.wikidata.org/entity/Q11472>,
+        <http://www.wikidata.org/entity/Q127418>,
+        <http://www.wikidata.org/entity/Q494756> ;
+    ns1:P2079 <http://www.wikidata.org/entity/Q28136501>,
+        <http://www.wikidata.org/entity/Q614467> ;
+    ns1:P276 <https://www.wikidata.org/entity/Q11148847>,
+        <https://www.wikidata.org/entity/Q4970> ;
+    ns1:P585 "2012-10-16"^^xsd:date ;
+    ns1:P608 <"api_uri"> ;
+    ns1:P921 <https://www.wikidata.org/entity/Q12681> .

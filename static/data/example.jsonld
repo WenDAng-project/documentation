@@ -1,0 +1,549 @@
+[
+    {
+        "@context": "https://writeproject.dipintra.it/api-context",
+        "@id": "api-uri",
+        "@type": [
+            "o:Item",
+            "wdt:Q43229"
+        ],
+        "wd:P2561": [
+            {
+                "type": "literal",
+                "property_id": 405,
+                "property_label": "name",
+                "is_public": true,
+                "@value": "Cloud Gate Dance Theatre of Taiwan (雲門舞集)",
+                "@language": "en"
+            },
+            {
+                "type": "literal",
+                "property_id": 405,
+                "property_label": "name",
+                "is_public": true,
+                "@value": "Yún mén wǔ jí",
+                "@language": "zh-Latn"
+            },
+            {
+                "type": "literal",
+                "property_id": 405,
+                "property_label": "name",
+                "is_public": true,
+                "@value": "雲門舞集",
+                "@language": "zh"
+            }
+        ],
+        "write:wikidata-resource": [
+            {
+                "type": "uri",
+                "property_id": 567,
+                "property_label": "wikidata resource",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q706985",
+                "o:label": "Cloud Gate Dance Theatre"
+            }
+        ],
+        "wd:P276": [
+            {
+                "type": "uri",
+                "property_id": 417,
+                "property_label": "location",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q1867",
+                "o:label": "Taipei"
+            }
+        ],
+        "wd:P856": [
+            {
+                "type": "uri",
+                "property_id": 415,
+                "property_label": "official website",
+                "is_public": true,
+                "@id": "https://www.cloudgate.org.tw/en/cg"
+            }
+        ]
+    },
+    {
+        "@context": "https://writeproject.dipintra.it/api-context",
+        "@id": "api-uri",
+        "@type": [
+            "o:Item",
+            "wdt:Q17514"
+        ],
+        "wd:P1476": [
+            {
+                "type": "literal",
+                "property_id": 421,
+                "property_label": "title",
+                "is_public": true,
+                "@value": "Shanghai be strong (上海坚强)",
+                "@language": "en"
+            },
+            {
+                "type": "literal",
+                "property_id": 421,
+                "property_label": "title",
+                "is_public": true,
+                "@value": "Shànghǎi jiānqiáng",
+                "@language": "zh-Latn"
+            },
+            {
+                "type": "literal",
+                "property_id": 421,
+                "property_label": "title",
+                "is_public": true,
+                "@value": "上海坚强",
+                "@language": "zh"
+            }
+        ],
+        "write:description": [
+            {
+                "type": "literal",
+                "property_id": 560,
+                "property_label": "description",
+                "is_public": true,
+                "@value": "This graffiti was painted on the Moganshan Road in memory of the victims of the fire that destroyed a building on the Jiaozhou Road (Shanghai) in 2010.  So this a memorial artwork. \nThe main theme of the piece consists of the words Shanghai 上海 and jianqiang  坚强 (fortify, be strong), which are represented through two different styles of charactering with the intention of emulating the brush stroke through different thicknesses. \nThe first two characters \"上海\" (Shanghai) were painted by Huri in running script (xingshu 行书). The other two characters jianqiang \"坚强\" (fortify, be strong) were painted by Storm (French writer) in regular script (kaishu 楷书). Because of their uniform thickness, maybe painted using a pasting brush or a paint roller, the \"jianqiang 坚强\" characters might also call to mind the great seal script (dazhuanshu 大篆书).  Both parts have a thin black outline that grants a tridimensional effect. This artwork is characterized by the presence of some Chinese traditional elements: an incense pot and four yellow chrysanthemums. The incense pot is a symbol of the funeral wake ritual, while the yellow chrysanthemum forms part of the \"four nobles\" (bamboo, orchid, plum tree and chrysanthemum), which, in traditional Chinese painting, represent the four seasons and the four ages of Man; among these, the chrysanthemum is the symbol of autumn. In the artwork there are also some Western visual elements: a scroll banner, a peace dove (painted in bubble style) and a black funeral ribbon. At the bottom, there are also eight tags: Huri (under the characters 上海), Storm (under the characters 坚强), Ting, Snow, Ake, Reign, Redim and OOPS (in the center).\nAmong the numerous works of the OOPS crew, \"Shanghai be strong (Shanghai jianqiang 上海坚强)\" is one of the best examples of \"contamination\" between the Western graffiti art movement and the Chinese artistic and cultural tradition.  ",
+                "@language": "en"
+            }
+        ],
+        "write:graffiti-type": [
+            {
+                "type": "customvocab:39",
+                "property_id": 595,
+                "property_label": "graffiti type",
+                "is_public": true,
+                "@value": "Mural",
+                "@language": "en"
+            },
+            {
+                "type": "customvocab:39",
+                "property_id": 595,
+                "property_label": "graffiti type",
+                "is_public": true,
+                "@value": "Aerosol Art",
+                "@language": "en"
+            }
+        ],
+        "write:graffiti-style": [
+            {
+                "type": "customvocab:23",
+                "property_id": 563,
+                "property_label": "graffiti style",
+                "is_public": true,
+                "@value": "Straight/Block Letters",
+                "@language": "en"
+            },
+            {
+                "type": "customvocab:23",
+                "property_id": 563,
+                "property_label": "graffiti style",
+                "is_public": true,
+                "@value": "Roller style",
+                "@language": "en"
+            },
+            {
+                "type": "customvocab:23",
+                "property_id": 563,
+                "property_label": "graffiti style",
+                "is_public": true,
+                "@value": "Bubble style/softie",
+                "@language": "en"
+            },
+            {
+                "type": "customvocab:23",
+                "property_id": 563,
+                "property_label": "graffiti style",
+                "is_public": true,
+                "@value": "Tag",
+                "@language": "en"
+            },
+            {
+                "type": "customvocab:23",
+                "property_id": 563,
+                "property_label": "graffiti style",
+                "is_public": true,
+                "@value": "Puppet",
+                "@language": "en"
+            }
+        ],
+        "wd:P180": [
+            {
+                "type": "uri",
+                "property_id": 420,
+                "property_label": "depicts",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q5003624",
+                "o:label": "memorial"
+            },
+            {
+                "type": "uri",
+                "property_id": 420,
+                "property_label": "depicts",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q750652",
+                "o:label": "mourning"
+            },
+            {
+                "type": "uri",
+                "property_id": 420,
+                "property_label": "depicts",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q1142909",
+                "o:label": "rest in peace"
+            },
+            {
+                "type": "uri",
+                "property_id": 420,
+                "property_label": "depicts",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q1062741",
+                "o:label": "resilience"
+            },
+            {
+                "type": "uri",
+                "property_id": 420,
+                "property_label": "depicts",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q26237350",
+                "o:label": "exhortation"
+            }
+        ],
+        "wd:P186": [
+            {
+                "type": "uri",
+                "property_id": 428,
+                "property_label": "made by material",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q42948",
+                "o:label": "wall"
+            },
+            {
+                "type": "uri",
+                "property_id": 428,
+                "property_label": "made by material",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q2066608",
+                "o:label": "spray painting"
+            }
+        ],
+        "wd:P2049": [
+            {
+                "type": "literal",
+                "property_id": 432,
+                "property_label": "width",
+                "is_public": true,
+                "@value": "4.5 meters",
+                "@language": "en"
+            }
+        ],
+        "wd:P2048": [
+            {
+                "type": "literal",
+                "property_id": 433,
+                "property_label": "height",
+                "is_public": true,
+                "@value": "2.5 meters",
+                "@language": "en"
+            }
+        ],
+        "wd:P2079": [
+            {
+                "type": "uri",
+                "property_id": 438,
+                "property_label": "fabrication method",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q659495",
+                "o:label": "aerosol spray"
+            },
+            {
+                "type": "uri",
+                "property_id": 438,
+                "property_label": "fabrication method",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q1396432",
+                "o:label": "paint roller"
+            },
+            {
+                "type": "uri",
+                "property_id": 438,
+                "property_label": "fabrication method",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q614467",
+                "o:label": "brush"
+            }
+        ],
+        "wd:P941": [
+            {
+                "type": "uri",
+                "property_id": 456,
+                "property_label": "inspired by",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q168983",
+                "o:label": "conflagration"
+            },
+            {
+                "type": "uri",
+                "property_id": 456,
+                "property_label": "inspired by",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q3196",
+                "o:label": "fire"
+            },
+            {
+                "type": "uri",
+                "property_id": 456,
+                "property_label": "inspired by",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q866653",
+                "o:label": "2010 Shanghai fire"
+            }
+        ],
+        "write:has-seal": [
+            {
+                "type": "customvocab:34",
+                "property_id": 586,
+                "property_label": "has seal",
+                "is_public": true,
+                "@value": "No",
+                "@language": "en"
+            }
+        ],
+        "wd:P8570": [
+            {
+                "type": "customvocab:35",
+                "property_id": 588,
+                "property_label": "has colophon",
+                "is_public": true,
+                "@value": "No",
+                "@language": "en"
+            }
+        ],
+        "wd:P170": [
+            {
+                "type": "resource:item",
+                "property_id": 429,
+                "property_label": "creator",
+                "is_public": true,
+                "@id": "api-uri",
+                "value_resource_id": 1144,
+                "value_resource_name": "items",
+                "url": null,
+                "display_title": "OOPS crew"
+            }
+        ],
+        "wd:P571": [
+            {
+                "type": "numeric:timestamp",
+                "property_id": 431,
+                "property_label": "date of creation",
+                "is_public": true,
+                "@value": "2010-11",
+                "@type": "http://www.w3.org/2001/XMLSchema#gYearMonth"
+            }
+        ],
+        "wd:P276": [
+            {
+                "type": "uri",
+                "property_id": 417,
+                "property_label": "location",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q8686",
+                "o:label": "Shanghai"
+            },
+            {
+                "type": "uri",
+                "property_id": 417,
+                "property_label": "location",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q23817",
+                "o:label": "50 Moganshan Road"
+            }
+        ],
+        "wd:P6375": [
+            {
+                "type": "literal",
+                "property_id": 442,
+                "property_label": "street address",
+                "is_public": true,
+                "@value": "Moganshan Road",
+                "@language": "en"
+            },
+            {
+                "type": "literal",
+                "property_id": 442,
+                "property_label": "street address",
+                "is_public": true,
+                "@value": "Mògànshān lù",
+                "@language": "zh-Latn"
+            },
+            {
+                "type": "literal",
+                "property_id": 442,
+                "property_label": "street address",
+                "is_public": true,
+                "@value": "莫干山路",
+                "@language": "zh"
+            }
+        ],
+        "wd:P136": [
+            {
+                "type": "customvocab:20",
+                "property_id": 540,
+                "property_label": "genre",
+                "is_public": true,
+                "@value": "Public social-political art",
+                "@language": "en"
+            },
+            {
+                "type": "customvocab:20",
+                "property_id": 540,
+                "property_label": "genre",
+                "is_public": true,
+                "@value": "Memorial art",
+                "@language": "en"
+            },
+            {
+                "type": "customvocab:20",
+                "property_id": 540,
+                "property_label": "genre",
+                "is_public": true,
+                "@value": "Public free art",
+                "@language": "en"
+            }
+        ],
+        "wd:P462": [
+            {
+                "type": "uri",
+                "property_id": 534,
+                "property_label": "color",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q23444",
+                "o:label": "white"
+            },
+            {
+                "type": "uri",
+                "property_id": 534,
+                "property_label": "color",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q23445",
+                "o:label": "black"
+            },
+            {
+                "type": "uri",
+                "property_id": 534,
+                "property_label": "color",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q943",
+                "o:label": "yellow"
+            },
+            {
+                "type": "uri",
+                "property_id": 534,
+                "property_label": "color",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q39338",
+                "o:label": "orange"
+            },
+            {
+                "type": "uri",
+                "property_id": 534,
+                "property_label": "color",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q42519",
+                "o:label": "grey"
+            }
+        ],
+        "write:chinese-visual-element": [
+            {
+                "type": "customvocab:19",
+                "property_id": 565,
+                "property_label": "chinese visual element",
+                "is_public": true,
+                "@value": "Four noble plants (si junzi)",
+                "@language": "en"
+            },
+            {
+                "type": "customvocab:19",
+                "property_id": 565,
+                "property_label": "chinese visual element",
+                "is_public": true,
+                "@value": "Chrysanthemum (ju)",
+                "@language": "en"
+            },
+            {
+                "type": "customvocab:19",
+                "property_id": 565,
+                "property_label": "chinese visual element",
+                "is_public": true,
+                "@value": "Incense",
+                "@language": "en"
+            }
+        ],
+        "write:has-chengyu": [
+            {
+                "type": "customvocab:37",
+                "property_id": 590,
+                "property_label": "has chengyu",
+                "is_public": true,
+                "@value": "No",
+                "@language": "en"
+            }
+        ],
+        "write:visual-element": [
+            {
+                "type": "uri",
+                "property_id": 566,
+                "property_label": "visual element",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q87758078",
+                "o:label": "Peace dove"
+            },
+            {
+                "type": "uri",
+                "property_id": 566,
+                "property_label": "visual element",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q3495871",
+                "o:label": "black ribbon"
+            },
+            {
+                "type": "uri",
+                "property_id": 566,
+                "property_label": "visual element",
+                "is_public": true,
+                "@id": "https://www.wikidata.org/entity/Q806880",
+                "o:label": "banner"
+            }
+        ],
+        "write:has-unit": [
+            {
+                "type": "resource:item",
+                "property_id": 571,
+                "property_label": "has unit",
+                "is_public": true,
+                "@id": "api-uri",
+                "value_resource_id": 81,
+                "value_resource_name": "items",
+                "url": null,
+                "display_title": "CWU 1 Shanghai be strong (上海坚强)",
+                "thumbnail_url": "jpg-uri",
+                "thumbnail_title": "CWU Shanghai be strong (上海坚强)",
+                "thumbnail_type": "image/jpeg"
+            },
+            {
+                "type": "resource:item",
+                "property_id": 571,
+                "property_label": "has unit",
+                "is_public": true,
+                "@id": "api-uri",
+                "value_resource_id": 1318,
+                "value_resource_name": "items",
+                "url": null,
+                "display_title": "CWU 2 Shanghai be strong (Rest in peace)",
+                "thumbnail_url": "jpg-uri",
+                "thumbnail_title": "CWU 2 Shanghai be strong (Rest in Peace)",
+                "thumbnail_type": "image/jpeg"
+            }
+        ]
+    }
+    
+]
