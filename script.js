@@ -9,6 +9,9 @@ $(function(){
     $("#documentationContent").load("static/documentation.html"); 
   });
   $(function(){
+    $("#thesaurusContent").load("static/thesaurus.html"); 
+  });
+  $(function(){
     $("#csContent").load("static/casestudies.html"); 
   });
 $(function(){
