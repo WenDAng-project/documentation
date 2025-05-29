@@ -1,133 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WRITE Digital Archive</title>
-    <!-- bootstrap 5 css -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
-    />
-    <!-- BOX ICONS CSS-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <!-- custom css -->
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet" type="text/css"/>
-
-
-  </head>
-
-  <body>
-
-    <div id="loading">
-      <img id="loading-image" src="https://c.tenor.com/xDZkQ6ALTmIAAAAi/loading-snake-io.gif" alt="Loading..." />
-    </div>
-
-    <div class="main">
-
-
-
-    <!-- Side-Nav -->
-    <div
-      class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column"
-      id="sidebar">
-      <ul class="nav flex-column text-white w-100">
-        <a href="#home" class="nav-link h3 text-white my-2 menu-btn">
-         WenDAng<br> <span style="font-size:50%">documentation</span>
-        </a>
-        <hr class="bg-danger border-2 border-top border-danger">
-        <li> <a href="#documentation" class="nav-link menu-btn showButton">
-          <span class="mx-2">ontology</span> </a>
-        </li>
-        <li> <a href="#thesaurus" class="nav-link menu-btn showButton">
-          <span class="mx-2">thesaurus</span> </a>
-        </li>
-        <li> <a href="#casestudies" class="nav-link menu-btn showButton">
-          <span class="mx-2">case studies</span></a>
-        </li>
-        <li> <a href="#rdfdata" class="nav-link menu-btn showButton">
-          <span class="mx-2">RDF data</span></a>
-        </li>
-		 <li> <a href="#team" class="nav-link menu-btn showButton">
-          <span class="mx-2">team</span></a>
-        </li>
-        <!-- <li> <a href="#queries" class="nav-link menu-btn showButton">
-          <span class="mx-2">competency questions</span> </a>
-        </li> --> 
-      </ul>
-
-    </div>
-
-    <!-- Main Wrapper -->
-    <div class="p-1 my-container active-cont">
-      <!-- Top Nav -->
-      <nav class="navbar top-navbar navbar-light bg-light px-5">
-        <a class="btn border-0" id="menu-btn"><i class="bx bx-menu"></i></a>
-        <img src="https://writecalligraphyproject.eu/wp-content/uploads/2021/07/LOGO-1.svg">
-      </nav>
-
-      <!--End Top Nav -->
-
-      <!-- MAIN CONTENT -->
-      <div class="main-content-wrapper">
-        <div class="menu-content home"><div id="intro"></div></div>
-        <div class="menu-content documentation"><div id="documentationContent"></div></div>
-        <div class="menu-content thesaurus"><div id="thesaurusContent"></div></div>
-        <div class="menu-content casestudies"><div id="csContent"></div></div>
-        <div class="menu-content rdfdata"><div id="csData"></div></div>
-		    <div class="menu-content team"><div id="team"></div></div>
-        <!-- <div class="menu-content queries"><div id="querieslist">
-          <div class="query-contanier p-5">
-            <div class="intro_query pb-5">
-              <h1>Queries</h1>
-              <p>This section present a list of relevant queries against WRITE dataset, which can be run in this page or in the SPARQL endpoint section. The list of queries defines WRITE KB potentialities in storing and retriving data. The queries presented in this section are mostly focues over calligraphic components of artworks and their artistic and linguistic analysis.</p>
-            </div>
-            <div id='card_box'></div> 
-        </div>
-        </div>
-        </div> -->
-
-    </div>
-
-    <footer>
-      <div class="row navbar-light bg-light col col-md-12">
-        <div style="padding-left: 60px; padding-right: 60px; padding-top: 20px;">
-          <p style="font-size: 14px;">This project has received funding through Bando FARE - Research Project 
-            <i>WenDAng – WRITE Digital Archive</i> (CINECA code: R20K7ZB983).</p>
-          <p style="font-size: 13px; color: dimgrey;">
-            <i><b>Disclaimer:</b> This project is a work in progress, as the WRITE domain experts are still working on the data entry process. For this reason, all aspects related to the WenDAng Digital Archive (dataset, ontology and thesaurus) are being updated regularly.</i>
-          </p>
-        </div>
-        <div style="text-align: center; font-size: 12px; color: #aaa; width: 100%; margin-top: 10px; padding-bottom: 10px;">
-          Web design by Valentina Pasqual | Legacy version available <a href="https://write-dataset.github.io/documentation/">here</a>
-        </div>
-      </div>  
-    </footer>
-
-    
-  </div>
-  </div>
-</body>
-
-
-    <!-- bootstrap js -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-      crossorigin="anonymous"
-    ></script>
-
+<head>
+  <meta charset="UTF-8"> <!-- Ensures correct encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WenDAng Digital Archive</title>
+  <link rel="stylesheet" href="style.css">
   
+  <!-- Importing Roboto Font 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> -->
 
-<script src="script.js"></script>
+  <!--<style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif; /* Apply Roboto font to the entire body */
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      height: 100vh;
+    }
+    .tile {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; /* Stack text elements vertically */
+    }
+    .tile img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .tile:hover img {
+      transform: scale(1.05);
+    }
+    .tile a {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      text-indent: -9999px;
+    }
+    
+    /* Color overlay */
+    .tile::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent black overlay */
+      z-index: 1;
+    }
 
+    .tile-text {
+      position: absolute;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      padding: 15px;
+      text-align: center;
+      max-width: 90%;
+      z-index: 2; /* Ensure text is above the overlay */
+    }
+    .tile-subtext {
+      position: absolute;
+      color: white;
+      font-size: 16px;
+      padding: 10px;
+      text-align: center;
+      max-width: 90%;
+      z-index: 2; /* Ensure text is above the overlay */
+      top: 50%; /* Adjust position to be just below the main text */
+    }
+    .navbar {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index: 1001;
+    }
 
-  </body>
+    .hamburger {
+      font-size: 28px;
+      cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      z-index: 1002; /* Ensure it's above other elements */
+    }
+
+    /* Side menu style */
+    .side-menu {
+      height: 100%; /* Full height of the screen */
+      width: 320px; /* Set the width to 320px */
+      position: fixed;
+      top: 0;
+      left: -320px; /* Initially off-screen, adjusted to match the new width */
+      background-color: #111; /* Dark background */
+      overflow-x: hidden; /* Hide any horizontal overflow */
+      transition: 0.4s ease; /* Smooth transition */
+      padding-top: 100px; /* Add padding from the top */
+      z-index: 1000; /* Make sure it stays on top */
+      display: flex;
+      flex-direction: column;
+    }
+
+    .side-menu a {
+      padding: 12px 24px;
+      margin-left: 12px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #f1f1f1;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .side-menu a:hover {
+      background-color: #575757;
+    }
+
+    .side-menu .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 28px;
+      color: white;
+      background: none;
+      border: none;
+      z-index: 1001; /* Ensure it's above other elements */
+      cursor: pointer;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.3); /* semi-transparent */
+      z-index: 900;
+      display: none;
+      transition: opacity 0.3s ease;
+    }
+
+    .grid.blurred {
+      filter: blur(3px);
+      transition: filter 0.3s ease;
+    }
+ </style> -->
+</head>
+<body class="homepage">
+  <header class="navbar">
+    <div id="menu-btn" class="hamburger" onclick="toggleMenu()">⋮</div> <!-- Hamburger button -->
+  </header>
+
+  <nav id="sideMenu" class="side-menu">
+    <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()">✕</a> <!-- Close (X) button -->
+    <a href="static/intro.html">Project</a>
+    <a href="static/resources.html">Resources</a>
+    <a href="static/casestudies.html">In Practice</a>
+    <a href="static/team.html">About Us</a>
+  </nav>
+
+  <div class="grid">
+    <div class="tile">
+      <img src="static/home_img/img12.jpg" alt="About & Team">
+      <div class="tile-text">WenDAng</div>
+      <div class="tile-subtext">about the project</div> <!-- Additional text -->
+      <a href="static/intro.html" aria-label="Project"></a>
+    </div>
+    <div class="tile">
+      <img src="static/home_img/echomorgan.jpg" alt="Ontology">
+      <div class="tile-text">Resources</div>
+      <div class="tile-subtext">ontology & thesaurus</div> <!-- Additional text -->
+      <a href="static/resources.html" aria-label="Resources"></a>
+    </div>
+    <div class="tile">
+      <img src="static/home_img/chair1.jpg" alt="Case Studies">
+      <div class="tile-text">In Practice</div>
+      <div class="tile-subtext">explore the case studies</div> <!-- Additional text -->
+      <a href="static/casestudies.html" aria-label="In Practice"></a>
+    </div>
+    <div class="tile">
+      <img src="static/home_img/0819_3.jpg" alt="RDF Data">
+      <div class="tile-text">About Us</div>
+      <div class="tile-subtext">team, readings, events</div> <!-- Additional text -->
+      <a href="static/team.html" aria-label="About Us"></a>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById("sideMenu");
+      const grid = document.querySelector(".grid");
+      const menuBtn = document.getElementById("menu-btn"); // Hamburger icon
+      const closeBtn = document.querySelector(".close-btn"); // Close (X) button
+
+      // Check if the menu is open
+      if (menu.style.left === "0px") {
+        // Close the menu
+        menu.style.left = "-320px"; // Slide the menu off-screen
+        grid.classList.remove("blurred"); // Remove the blur effect
+        menuBtn.style.display = "block"; // Show the hamburger icon again
+        closeBtn.style.display = "none"; // Hide the close button
+      } else {
+        // Open the menu
+        menu.style.left = "0"; // Slide the menu in
+        grid.classList.add("blurred"); // Apply the blur effect to the grid
+        menuBtn.style.display = "none"; // Hide the hamburger icon
+        closeBtn.style.display = "block"; // Show the close button
+      }
+    }
+  </script>
+</body>
 </html>

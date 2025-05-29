@@ -1,0 +1,266 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <https://wendang-project.github.io/ontology/> .
+@prefix ns2: <http://omeka.org/s/vocabs/o#> .
+@prefix ns3: <http://www.wikidata.org/prop/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+    X a ns2:Item,
+        <http://www.wikidata.org/entity/Q17514> ;
+    ns2:title "Luck, Longevity, Prosperity, and Happiness (福禄寿禧)" ;
+    ns1:description """This artwork was made during the Simple Urban Plus Festival, a music and art festival dedicated to young people, which took place on November 2-3, 2019 at the Chengdu Tianfu Furong Garden.
+This artwork is composed of four characters (fulushouxi 福禄壽禧). These four characters form a popular auspicious phrase that means "Luck, Longevity, Prosperity, and Happiness".  Each character is placed on a single panel; the four panels are next to one another, and the four characters are read from right to left as usual in traditional Chinese calligraphy. In this work, Fan Sack was probably inspired by the big signs written from right to left in Chinese calligraphy  on temples or public buildings.
+The artwork is made exactly like a calligraphy: (1) its format recalls the "big character calligraphy" (dazi shufa 大字书法) of classical tradition; (2) the artist seeks to reproduce brush strokes on paper using a paint roller and a brush; (3) the calligraphic script seems to reproduce regular script (kaishu 楷书), and the links between certain strokes of the characters recall running script (xingshu 行书).
+In contrast to traditional calligraphy, which is always monochrome (black ink on white paper), in this work each character is painted a different colour and has a colourful kaleidoscopic circle in the background that gives tridimensionality and power to each character."""@en ;
+    ns1:graffiti-style "Roller style"@en ;
+    ns1:graffiti-type "Graffiti Panel Art"@en ;
+    ns1:has-chengyu "Yes"@en ;
+    ns1:has-seal "No"@en ;
+    ns1:has-unit X ;
+    ns3:P136 "Art for festival"@en ;
+    ns3:P1476 "Luck, Longevity, Prosperity, and Happiness (福禄寿禧)"@en,
+        "Fú lù shòu xǐ"@zh-Latn,
+        "福禄壽禧 "@zh ;
+    ns3:P170 X ;
+    ns3:P180 <https://www.wikidata.org/entity/Q1066907>,
+        <https://www.wikidata.org/entity/Q1760011>,
+        <https://www.wikidata.org/entity/Q200535>,
+        <https://www.wikidata.org/entity/Q241625>,
+        <https://www.wikidata.org/entity/Q8> ;
+    ns3:P186 <https://www.wikidata.org/entity/Q207849>,
+        <https://www.wikidata.org/entity/Q55439> ;
+    ns3:P2079 <https://www.wikidata.org/entity/Q1396432>,
+        <https://www.wikidata.org/entity/Q614467> ;
+    ns3:P276 <https://www.wikidata.org/entity/Q30002> ;
+    ns3:P462 <https://www.wikidata.org/entity/Q1088>,
+        <https://www.wikidata.org/entity/Q23445>,
+        <https://www.wikidata.org/entity/Q3133>,
+        <https://www.wikidata.org/entity/Q3257809>,
+        <https://www.wikidata.org/entity/Q372973>,
+        <https://www.wikidata.org/entity/Q39338>,
+        <https://www.wikidata.org/entity/Q843607>,
+        <https://www.wikidata.org/entity/Q943> ;
+    ns3:P571 "2019-11-02"^^xsd:date ;
+    ns3:P6375 "Tianfu Furong Garden, Chengdu"@en .
+
+    X a ns2:Item,
+        ns1:DecorativeAndAppliedArt ;
+    ns2:title "The Entire World Celebrates (普天同庆)" ;
+    ns1:chinese-concept "Chinese red",
+        "Tao (Dao)",
+        "Yin-yang" ;
+    ns1:chinese-visual-element "Taijitu"@en,
+        "Taotie"@en ;
+    ns1:description """The artwork "Entire World Celebrates (Putian tong qing 普天同庆)" was the Kwanyin Clan’s most successful experiment with distinctly Chinese yet modernised elements in a work commissioned by a foreign brand. It depicts a football fully hand-painted with tempera and marker, made on commission for Adidas for the 2010 FIFA World Cup advertising campaign. Yumi and Nat, the creators of the piece, covered the entire surface of the ball with traditional Chinese motifs, reworked in very personal ways. A curved line divides the ball into two parts and recreates the Taijitu 太极图, the Daoist symbol par excellence, consisting of the stylized shape of a black and a white fish, intertwining in a whirling embrace. It represents the concept of the Tao (Dao 道), the source of being that regulates the development of the universe through the alternation of two complementary elements: yin 阴, the dark-negative polarity represented by the black fish, and yang 阳, the light-positive polarity represented by the white fish. 
+The two sections of the ball are filled with opposing motifs: one recalls the Euro-American graffiti tradition and the other the traditional Chinese culture, and these intertwine just like Yin and Yang, in a perfect fusion. On one side, Yumi creates an extreme grey and white wildstyle, while on the other, on a red background, Nat draws the zoomorphic image of the taotie 饕餮, an archaic decorative motif typical of ritual bronzes from the Shang (c. 1600-1046 BC) and Zhou (1046-221 BC) dynasties, representing a frontal, symmetrical mask with various parts of different animals. Since, in the Chinese tradition, football – or cuju 蹴鞠 (lit. kicking a leather ball) – evoked a Zen meditative act, the artists instinctively thought of the image of the Taijitu, consisting of the stylised form of two fishes, one white and one black, intertwining with each other, surrounded by the Eight Trigrams. According to FIFA, cuju is the earliest attested form of football in the world, and its invention dates from the Han dynasty (206 BC-220 AD). Initially, it was slightly different from the modern game: there were six holes on each side of the pitch with six goalkeepers, and each team, composed of six players plus the goalkeepers, had to score the highest number of goals. In the Tang dynasty (618-907), the holes turned into two goals on opposite sides of the field and the game resembled the current one. The Eight Trigrams are figures composed of three parallel lines, surrounding the Taijitu with a perfect octagon, each aligned to a cardinal point. The lines can be continuous or broken, indicating positive (yang) or negative (yin) polarity respectively. Each trigram corresponds to a natural element or phenomenon (sky, swamp, fire, thunder, wind, water, mountain and earth), and all together they symbolize the contents of the Book of Changes (Yijing), one of the fundamental texts of traditional Chinese knowledge. The wildstyle within one of the two sections of the ball recalls the linearity of the trigrams. Reference to the World Cup in the image is evident: the two sections of the Taijitu ideally represent the two football teams (the yin and the yang) that share and mix on the same pitch (the circle), thus generating a continuous action (the Tao)."""@en ;
+    ns1:has-seal "No"@en ;
+    ns1:has-unit X ;
+    ns1:product-type <https://www.wikidata.org/entity/Q262090> ;
+    ns3:P1071 <https://www.wikidata.org/entity/Q148> ;
+    ns3:P1476 "The Entire World Celebrates (普天同庆)"@en,
+        """Pǔtiāntóngqìng"""@zh-Latn,
+        "普天同庆"@zh ;
+    ns3:P180 <https://www.wikidata.org/entity/Q138208>,
+        <https://www.wikidata.org/entity/Q190393>,
+        <https://www.wikidata.org/entity/Q262090>,
+        <https://www.wikidata.org/entity/Q62744>,
+        <https://www.wikidata.org/entity/Q758058> ;
+    ns3:P186 <https://www.wikidata.org/entity/Q127418>,
+        <https://www.wikidata.org/entity/Q175166>,
+        <https://www.wikidata.org/entity/Q286> ;
+    ns3:P2079 <https://www.wikidata.org/entity/Q2743156>,
+        <https://www.wikidata.org/entity/Q614467> ;
+    ns3:P287 X,
+        X,
+        X ;
+    ns3:P462 <https://www.wikidata.org/entity/Q23444>,
+        <https://www.wikidata.org/entity/Q23445>,
+        <https://www.wikidata.org/entity/Q3142>,
+        <https://www.wikidata.org/entity/Q42519> ;
+    ns3:P571 "2010"^^xsd:gYear ;
+    ns3:P856 <https://vimeo.com/13024978> ;
+    ns3:P8570 "No"@en ;
+    ns3:P88 <https://www.wikidata.org/entity/Q12358242> .
+
+    X a ns2:Item,
+        ns1:DecorativeAndAppliedArt ;
+    ns2:title "Peace (和气 )" ;
+    ns1:chinese-visual-element "Decorative cloud motif (yunwen)"@en,
+        "Turbulent ocean waves (pingshui)"@en ;
+    ns1:description """With the artwork "Peace (Heqi 和气)", the Kwanyin Clan creates a modern version of the iconic blue and white Chinese porcelain, combining a traditional type of art with contemporary graffiti writing techniques. 
+From 2009 to 2010, the Kwanyin Clan created a series dedicated to blue and white porcelain experimenting with the use of innovative media. The crew transposes graffiti art styles and techniques onto artefacts of diverse and extremely unique shapes (plates, vases and brush pots) through traditional cobalt blue decorations.
+For instance, in the piece "Peace (Heqi 和气)", Nat used a blue marker to write, in wildstyle, the two characters of the title "Heqi 和气" on a white porcelain plate, with arrows and zigzagging lines that perfectly combine a traditional approach with contemporary execution. 
+For the Kwanyin Clan using Chinese characters in graffiti form as decorative motifs for porcelain artefacts means experimenting with new patterns of decoration. Since the motifs used in porcelain are rather standardized and most of them are not compatible with today’s aesthetic models, they tried to create new ones. It was simply a matter of changing the support material for the writing piece: resorting to porcelain added a further oriental and traditional touch to their style, which, however, remains unchanged. In this specific case, the choice of Heqi 和气 characters stemmed from the fact that decorative motifs in Chinese artistic handicrafts are always linked to auspicious and good luck messages, so they chose to focus the piece on these two characters. Indeed, they are present in a chengyu used as a wish of happiness, which reads "Heqi shengcai 和气生财" (Amiability begets riches).
+The Chinese elements in this work are numerous: blue and white porcelain, Chinese characters, the chengyu inspiration for the title, its auspicious meaning, the decorative “clouds pattern” (yunwen 云纹), and the "wave-like pattern" (langwen 浪纹, also known as pingshui 平水),  a design motif of the “turbulent ocean waves” symbolizing fluidity and the power of nature. All the elements are transposed in a modern key. This series is one of the preeminent examples of the Kwanyin Clan experimental power expressed by reworking traditional patterns. """@en ;
+    ns1:has-seal "No"@en ;
+    ns1:has-unit X ;
+    ns1:product-type <https://www.wikidata.org/entity/Q1074328>,
+        <https://www.wikidata.org/entity/Q45621>,
+        <https://www.wikidata.org/entity/Q98276829> ;
+    ns3:P1071 <https://www.wikidata.org/entity/Q148>,
+        <https://www.wikidata.org/entity/Q956> ;
+    ns3:P1476 "Peace (和气 )"@en,
+        "Héqì"@zh-Latn,
+        " 和气 "@zh ;
+    ns3:P180 <https://www.wikidata.org/entity/Q1074328>,
+        <https://www.wikidata.org/entity/Q13464614>,
+        <https://www.wikidata.org/entity/Q454> ;
+    ns3:P186 <https://www.wikidata.org/entity/Q127418>,
+        <https://www.wikidata.org/entity/Q130693> ;
+    ns3:P2079 <https://www.wikidata.org/entity/Q2743156> ;
+    ns3:P287 X,
+        X ;
+    ns3:P462 <https://www.wikidata.org/entity/Q1088>,
+        <https://www.wikidata.org/entity/Q23444> ;
+    ns3:P571 "2010"^^xsd:gYear ;
+    ns3:P8570 "Yes"@en .
+
+    X a ns2:Item,
+        <http://www.wikidata.org/entity/Q17514> ;
+    ns2:title "Broken Celadon" ;
+    ns1:chinese-concept "Chinese literati/gentleman (junzi)",
+        "Three perfections (sanjue)" ;
+    ns1:chinese-visual-element "Chinese ceramics"@en,
+        "Green celadon vase (huaping qingci)"@en ;
+    ns1:description """This artwork was made by the Kwanyin Clan for the exhibition "Street Art, a Global View" (The History of Street Art - from New York to Beijing) held in 2016 from 1 July to 24 August at the CAFA Art Museum (Art Museum of the Central Academy of Fine Arts) in Beijing. The exhibition was the first opportunity to showcase pieces by foreign street artists in China, generating both a geographical and temporal comparison of the street art phenomenon in its globality. The Kwanyin Clan was one of the few Chinese crews invited to participate in the event, proving the group's fundamental importance within the art scene in mainland China and abroad. The work they created for this event  is composed of a green celadon glazed ceramic vase that recalls the Jun-type celadons made in China during the Song Dynasty (960 - 1279). This kind of ceramics is considered one of the finest forms of Chinese art and one of the most beautiful ceramic ware of all time, particularly appreciated among the Chinese literati. 
+The explosive force of the elaborate wildstyle charactering piece "guanyin 观音" inserted into the celadon pushes onto the thin walls of the vase and disintegrates it, representing the forces of modernity that break and overcomes tradition. 
+In the lower right-hand corner, there are a running style (xingshu 行书) calligraphic inscription consisting of two chengyu written on vertical columns that serves as a double warning. The first chengyu states that "observing a person's failings you know what he really is" (guanguozhiren 观过知仁), while the second affirms that "when we receive positive influences, we can change our old habits" (panlingeyin 泮林革音). These two chengyu seem to be personal and artistic admonishments made by the crew. i) With regard to the personal sphere, the smashed vase represents the person's faults and failing: when the person's thin 'glaze' is smashed, one can show his real nature and change his old habits. ii) With regard to the artistic sphere, the content of the vase represents the real nature of the Kwanyin Clan's art (graffiti), while the traditional art is only its cover (the glaze of the vase): when the power of graffiti smashes that cover, the traditional influences will be transformed into modern art. 
+As usual in traditional calligraphy, next to the calligraphic inscription there is a seal with the name of the crew, but opposite to the traditional canons, the seal is in Latin letters and not in archaic characters. """@en ;
+    ns1:graffiti-style "3D style"@en,
+        "Design style"@en,
+        "Wildstyle"@en ;
+    ns1:graffiti-type "Graffiti Panel Art"@en ;
+    ns1:has-chengyu "Yes"@en ;
+    ns1:has-seal "Yes"@en ;
+    ns1:has-unit X, X, X ;
+    ns3:P136 "Institution commissioned art"@en ;
+    ns3:P1476 "Broken Celadon "@en ;
+    ns3:P170 X ;
+    ns3:P180 <https://www.wikidata.org/entity/Q1054559>,
+        <https://www.wikidata.org/entity/Q109278929>,
+        <https://www.wikidata.org/entity/Q11084414>,
+        <https://www.wikidata.org/entity/Q1150070>,
+        <https://www.wikidata.org/entity/Q5602191>,
+        <https://www.wikidata.org/entity/Q56297769> ;
+    ns3:P186 <https://www.wikidata.org/entity/Q2066608>,
+        <https://www.wikidata.org/entity/Q55439> ;
+    ns3:P2079 <https://www.wikidata.org/entity/Q659495> ;
+    ns3:P276 <https://www.wikidata.org/entity/Q10875112>,
+        <https://www.wikidata.org/entity/Q956> ;
+    ns3:P462 <https://www.wikidata.org/entity/Q1088>,
+        <https://www.wikidata.org/entity/Q19361243>,
+        <https://www.wikidata.org/entity/Q2307593>,
+        <https://www.wikidata.org/entity/Q23444>,
+        <https://www.wikidata.org/entity/Q23445>,
+        <https://www.wikidata.org/entity/Q3133>,
+        <https://www.wikidata.org/entity/Q3142>,
+        <https://www.wikidata.org/entity/Q3160411>,
+        <https://www.wikidata.org/entity/Q372973>,
+        <https://www.wikidata.org/entity/Q628657> ;
+    ns3:P571 "2016-07-01"^^xsd:date ;
+    ns3:P6375 "No.8 Huajiadi South Street. Chaoyang District, Beijing."@en ;
+    ns3:P8570 "No"@en ;
+    ns3:P88 <https://www.wikidata.org/entity/Q10875112>,
+        <https://www.wikidata.org/entity/Q3094605>,
+        <https://www.wikidata.org/entity/Q837873> .
+
+    X a ns1:Item,
+        <http://www.wikidata.org/entity/Q7725634> ;
+    ns1:title "Drink Alone with the Moon (月下独酌)" ;
+    ns2:date-qualifier "circa" ;
+    ns2:description """Drink Alone Under the Moon (月下独酌) is a famous poem by Li Bai 李白 (701-762), acclaimed as one of China’s best-loved  poets of the Tang dynasty (618–907 ce) and in Chinese history as a whole.
+This poem was written around 744 (third year of Emperor Xuanzong's Tianbao reign), when Li Bai was in the capital, Chang'an, and was experiencing frustration in his officialdom. This poem was written in a time when his political ideals could not be realized, and therefore the poet was pursuing freedom. """@en ;
+    ns2:transcription-and-translation """(1) A pot of wine among the flowers.
+                                            I drink alone, no friend with me.
+                                            I raise my cup to invite the moon.
+                                            He and my shadow and I make three.
+                                            The moon does not know how to drink;
+                                            My shadow mimes my capering;
+                                            But I'll make merry with them both -
+                                            And soon enough it will be Spring.
+                                            I sing - the moon moves to and fro.
+                                            I dance - my shadow leaps and sways.
+                                            Still sober, we exchange our joys.
+                                            Drunk - and we'll go our separate ways.
+                                            Let's pledge - beyond human ties - to be friends,
+                                            And meet where the Silver River ends.
+                                            (translation by Vikram Seth)"""@en,
+                                            """(1) Amid the flowers, from a pot of wine
+                                            I drink alone beneath the bright moonshine.
+                                            I raise my cup to invite the Moon who blends
+                                            Her light with my Shadow and we're three friends.
+                                            The Moon does not know how to drink her share;
+                                            In vain my Shadow follows me here and there.
+                                            Together with them for the time I stay
+                                            And make merry before spring's spent away.
+                                            I sing and the Moon lingers to hear my song;
+                                            My Shadow's a mess while I dance along.
+                                            Sober, we three remain cheerful and gay;
+                                            Drunken, we part and each may go his way.
+                                            Our friendship will outshine all earthly love,
+                                            Next time we'll meet beyond the stars above.
+                                            (Translation by Xu Yuanzhong)"""@en,
+                                            """(1) Huā jiān yī hú jiǔ, dúzhuó wū xiāngqīn.
+                                            Jǔ bēi yāo míngyuè, duì yǐng chéng sān rén.
+                                            Yuè jì bù jiě yǐn, yǐng tú suí wǒ shēn.
+                                            Zàn bàn yuè jiāng yǐng, xínglè xū jí chūn.
+                                            Wǒ gē yuè páihuái, wǒ wǔ yǐng língluàn.
+                                            Xǐng shí xiàng jiāohuān, zuì hòu gè fēnsàn.
+                                            Yǒng jié wúqíng yóu, xiāng qī miǎo yúnhàn.
+
+                                            (2) Tiān ruò bù ài jiǔ, jiǔ xīng bùzài tiān.
+                                            De ruò bù ài jiǔ, dì yìng wú jiǔquán.
+                                            Tiāndì jì ài jiǔ, ài jiǔ bùkuì tiān.
+                                            Yǐ wén qīng bǐ shèng, fù dào zhuó rú xián.
+                                            Xián shèng jì yǐ yǐn, hébì qiú shénxiān.
+                                            Sān bēi tōng dàdào, yī dòu hé zìrán.
+                                            Dàn dé jiǔ zhōng qù, wù wèi xǐng zhě chuán.
+
+                                            (3) Sān yuè xiányáng chéng, qiānhuā zhòu rú jǐn.
+                                            Shéi néng chūn dú chóu, duì cǐ jìng xū yǐn.
+                                            Qióng tōng yǔ xiū duǎn, zàohuà sù suǒ bǐng.
+                                            Yī zūn qí sǐshēng, wànshì gù nán shěn.
+                                            Zuì hòu shī tiāndì, wù rán jiù gū zhěn.
+                                            Bùzhī yǒu wú shēn, cǐ lè zuìwéi shén.
+
+                                            (4) Qióngchóu qiān wàn duān, měijiǔ sānbǎi bēi.
+                                            Chóu duō jiǔ suī shǎo, jiǔ qīng chóu bù lái.
+                                            Suǒyǐ zhī jiǔ shèng, jiǔ hān xīn zì kāi.
+                                            Cí sù wò shǒu yáng, lǚ kōng jī yán huí.
+                                            Dāngdài bù lè yǐn, xūmíng ān yòng zāi.
+                                            Xiè áo jíjīn yè, zāo qiū shì pénglái.
+                                            Qiě xū yǐn měijiǔ, chéng yuè zuì gāotái."""@zh-Latn,
+                                            """(1) 花间一壶酒，独酌无相亲。
+                                            举杯邀明月，对影成三人。
+                                            月既不解饮，影徒随我身。
+                                            暂伴月将影，行乐须及春。
+                                            我歌月徘徊，我舞影零乱。
+                                            醒时相交欢，醉后各分散。
+                                            永结无情游，相期邈云汉。
+
+                                            (2) 天若不爱酒，酒星不在天。
+                                            地若不爱酒，地应无酒泉。
+                                            天地既爱酒，爱酒不愧天。
+                                            已闻清比圣，复道浊如贤。
+                                            贤圣既已饮，何必求神仙。
+                                            三杯通大道，一斗合自然。
+                                            但得酒中趣，勿为醒者传。
+
+                                            (3) 三月咸阳城，千花昼如锦。
+                                            谁能春独愁，对此径须饮。
+                                            穷通与修短，造化夙所禀。
+                                            一樽齐死生，万事固难审。
+                                            醉後失天地，兀然就孤枕。
+                                            不知有吾身，此乐最为甚。
+
+                                            (4) 穷愁千万端，美酒三百杯。
+                                            愁多酒虽少，酒倾愁不来。
+                                            所以知酒圣，酒酣心自开。
+                                            辞粟卧首阳，屡空饥颜回。
+                                            当代不乐饮，虚名安用哉。
+                                            蟹螯即金液，糟丘是蓬莱。
+                                            且须饮美酒，乘月醉高台。"""@zh ;
+    ns3:P1476 "Drink Alone with the Moon (月下独酌)"@en,
+        "Yuè xià dúzhuó"@zh-Latn,
+        "月下独酌"@zh ;
+    ns3:P50 <https://www.wikidata.org/entity/Q7071> ;
+    ns3:P571 "0744"^^xsd:gYear .

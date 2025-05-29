@@ -6,13 +6,13 @@ $(function(){
     $("#intro").load("static/intro.html"); 
   });
   $(function(){
-    $("#documentationContent").load("static/documentation.html"); 
+    $("#documentationContent").load("static/resources.html"); 
   });
   $(function(){
     $("#thesaurusContent").load("static/thesaurus.html"); 
   });
   $(function(){
-    $("#csContent").load("static/casestudies.html"); 
+   $("#csContent").load("static/casestudies.html"); 
   });
 $(function(){
     $("#csData").load("static/rdfdata.html"); 

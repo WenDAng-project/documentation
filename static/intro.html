@@ -1,94 +1,148 @@
-<div class="intro-container p-5">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!-- Ensures correct encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <title>WenDAng Project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="main-header">
+    <div class="header-left">
+      <div class="site-title"><a href="../index.html">WenDAng Digital Archive</a></div>
+    </div>
+    <nav class="header-nav desktop-only">
+      <a href="intro.html">Project</a>
+      <a href="resources.html">Resources</a>
+      <a href="casestudies.html">In Practice</a>
+      <a href="team.html">About Us</a>
+    </nav>
+    <div id="menu-btn" class="hamburger mobile-only" onclick="toggleMenu()">☰</div>
+  </header>
 
-  <div class="row align-items-end">
-    <h2><i>WenDAng</i> - WRITE Digital Archive</h2>
-	<!--<br>
-    <h5><i>documentation</i></h5>-->
+
+  <main class="content-wrapper">
+    <div class="about-container">
+      <!-- About Text Section -->
+      <section class="about-text">
+        <h3>From Art to Data: <i>WRITE - WenDAng Digital Archive</i></h3>
+        <p>The ERC Starting Grant project called <a href="https://writecalligraphyproject.eu/" target="_blank"> <b>WRITE</b> – New Forms of Calligraphy in China: A Contemporary Culture Mirror</a> – is a major research initiative that explores how evolving forms of calligraphy in contemporary China are reshaping cultural identity.
+          With a growing presence in the contemporary arts, <b>WRITE</b> systematically analyzes these transformations as both artistic expressions and cultural phenomena.
+        </p>
+        <p>Building on the extensive research conducted by <b>WRITE</b>, the <strong>WenDAng project</strong> aims to create the first open-access semantic digital archive dedicated to these emerging forms of Chinese calligraphy.
+          <b>WenDAng</b> can be interpreted as the digital extension of <b>WRITE</b>, using its heterogeneous data collected through the research to offer a centralized platform for conservation, exploration, analysis, and public engagement.
+        </p>
+        <p> The <b>WenDAng</b> project, grounded in Digital Humanities, leverages computational tools to preserve, analyse, represent, and visualise the findings gathered from the WRITE project.
+          It does so while maintaining a critical awareness of the cultural significance of the objects studied. This methodology not only provides fresh perspectives on contemporary calligraphy but also redefines how knowledge about it is generated and disseminated.
+          At the core of this effort is the <b>WRITE ontology</b>, a framework that is still being developed and refined, that allows for the representation of both tangible and intangible aspects of this important cultural, artistic, linguistic, and social phenomenon.
+          The ontology, together with a dedicated <b>thesaurus</b>, will help bridging the gap in representation of traditional and contemporary expressions of calligraphy and art. By following Linked Open Data and FAIR principles, this work enables robust analysis and fosters the creation of new knowledge from three key perspectives: 
+        </p>
+        <div class="analysis-list">
+        <ul>
+        <li><p><i>Artistic analysis</i>: A detailed examination of the artworks from formal, stylistic, and iconographic perspectives.
+        </p></li>
+        <li><p><i>Linguistic / textual analysis</i>: An in-depth analysis of the texts within the artworks, including transcription, language identification, authorship, genre, meaning, textual history, and translation.
+        </p></li> 
+        <li><p><i>Socio-political-economic analysis</i>: A comprehensive evaluation of the artwork's context, including its patronage (public or private), public reception, exhibition history, and economic value.
+        </p></li> 
+      </ul>
+    </div>
+    <p>The WRITE Digital Archive will ensure data interoperability, seamless accessibility, and the ability to perform integrated queries across artistic, linguistic, and socio-political dimensions, making it a groundbreaking resource for both researchers and the broader public.
+        </p>
+        
+      </section>
+        <section class="about-text">
+          <h4>The gist of it all</h4>
+        <p>
+          In the very core of <b>WRITE</b>, and thus consecutively of <b>WenDAng</b>, are the <strong>four types of art</strong>, referred to as <code>collections</code> within the WRITE knowledge base. These collections serve as the organisational foundation for the digital archive. 
+          The archive distinguishes another precious element essential for representing and analysing Chinese contemporary calligraphy - the so-called <b>"Calli-Writing" unit</b> - which is a segment of the artwork that contains any kind of writing and / or calligraphy.</p>
+        <p>The 4 collections of art are the following:
+        </p>
+      </section>
+
+      <!-- Chessboard-style alternating image-text sections -->
+    <div class="photo-chess">   
+      <section class="alternate-section">
+        <div class="image-left">
+          <img src="home_img/grid1.jpg" alt="Visual Arts">
+          <span class="image-caption">The Infinitive Universe 大千世界, by Gu Gan</span>
+        </div>
+        <div class="text-right">
+          <h3>Visual Arts</h3>
+          <p>New forms of calligraphy emerged in the domain of “fine arts” (painting-like calligraphy, abstract painting, printmaking, seal carving and sculpture) and “contemporary arts” (assemblage, collage, mixed-media, conceptual art, installation, photography, digital art, video-art and land-art).</p>
+        </div>
+      </section>
+
+      <section class="alternate-section">
+        <div class="text-left">
+          <h3>Decorative and Applied Arts & Architecture</h3>
+          <p>For the first time Chinese characters lost their connection with the linguistic meaning evolving into desired design elements.</p>
+        </div>
+        <div class="image-right">
+          <img src="home_img/grid2.jpg" alt="Decorative and Applied Arts">
+          <span class="image-caption">Xiangshan Campus of the China Academy of Art, by Wang Shu</span>
+        </div>
+      </section>
+
+      <section class="alternate-section">
+        <div class="image-left">
+          <img src="home_img/grid3.jpg" alt="Graffiti Art">
+          <span class="image-caption">Landscape Painting PIC 山水PIC, by Kwanyin Clan</span>
+        </div>
+        <div class="text-right">
+          <h3>Graffiti Art</h3>
+          <p>The presence of calligraphy along the streets has evolved from the Maoist propaganda posters into graffiti works made for the first time not of Latin letters but of Chinese characters.</p>
+        </div>
+      </section>
+
+      <section class="alternate-section">
+        <div class="text-left">
+          <h3>Performing Arts</h3>
+          <p>The intrinsic calligraphic qualities of rhythm, dynamism and harmony flow into the fields of performance art, contemporary dance and music.</p>
+        </div>
+        <div class="image-right">
+          <img src="home_img/grid4.jpg" alt="Performing Arts">
+          <span class="image-caption">Cloud Gate Dance Theatre of Taiwan</span>
+        </div>
+      </section>
+    </div>
+    <br>
+      <!-- About Text Section (Continued) -->
+      <section class="about-text">
+  <h4>Explore this documentation to:</h4>
+  <div class="explore-list">
+    <ul>
+      <li>🔍 Dive into all things WenDAng: this introduction, ontology, thesaurus, and browsable RDF data.</li>
+      <li>📚 Discover case studies that show how it all works in practice.</li>
+      <li>👥 Meet the team, and browse through relevant literature and events.</li>
+    </ul>
   </div>
-    <!-- <div class="col-sm-0 col-md-2"></div>
-    <div class="col-md-4">
-      <p class="align-text-bottom">
-        WRITE dataset collects, structures and preserves the multifaceted domain of Chinese contemporary calligraphic data composed of artistic, linguistic and socio-political contents.
+</section>
+  </main>
+
+
+<footer class="main-footer">
+  <div class="footer-content">
+    <div class="footer-text">
+      <p>© 2023 WenDAng. All rights reserved.</p>
+      <p>This project received funding through bando FARE Research Project <i>WenDAng - WRITE Digital Archive</i> (CINECA code: R20K7ZB983).</p>
+      <p class="footer-note">
+        Web design & content maintenance by <strong>Katarina Lučić</strong> | <a href="https://write-dataset.github.io/documentation/" target="_blank">Legacy version available here</a>.
       </p>
-      <p>This platform provides some useful tools to discover WRITE domain and technology.</p>
-      </div>
-  </div> -->
-<br>
-  
-  <div class="row justify-content-md-center">
-	<div class="col col-md-11">
-      <p><i><b>WenDAng</i></b> digital archive aims to store, preserve, analyse and disseminate the data collected through the <i>WRITE</i> project.</p>
-	  <p>The <b><a href="https://writecalligraphyproject.eu/">WRITE project - New Forms of Calligraphy in China: A Contemporary Culture Mirror</a></b> - wants to investigate how the emergence of new forms of calligraphy in contemporary China has been playing a pivotal role in the re-definition of Chinese cultural identity. Given the evergrowing presence of calligraphy in contemporary arts, the central core of the project is to systematically analyse all these new art forms.</p>
-	  <p>This <b>dataset documentation</b> stores detailed information about the data collected by the domain experts involved in the WRITE project.</p>
-	</div>
-  </div>
-
-  <div class="row">
-    <div class="col-sm-0 col-md-12 pt-3">
-      <img class="img_home" src="static/img/home.png">
+    </div>
+    <div class="footer-images">
+    <a href="https://dit.unibo.it/it" target="_blank" rel="noopener noreferrer">
+      <img src="home_img/logo1.png" alt="Image 1">
+    </a>
+    <a href="https://fare.mur.gov.it/app.php" target="_blank" rel="noopener noreferrer">
+      <img src="home_img/logo2.jpg" alt="Image 1">
+    </a>
+    <a href="https://www.mur.gov.it/it" target="_blank" rel="noopener noreferrer">
+      <img src="home_img/logo3.png" alt="Image 2">
+    </a>
     </div>
   </div>
-  
-<br>  
-  
-  <div class="row justify-content-md-center">
-	<br>
-	<br>
-	<div class="col col-md-10">
-	<p>The core of the WRITE dataset are four collections corresponding to four types of art:</p>
-	</div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-2">
-		<h5>Visual Arts</h5>
-	</div>
-	<div class="col">
-		<h5>Decorative and Applied Arts</h5>
-	</div>
-	<div class="col-2">
-		<h5>Graffiti Art</h5>
-	</div>
-	<div class="col">
-		<h5>Performing Arts</h5>
-	</div>
-  </div>
-  
- <br>
-  <div class="row justify-content-md-center">
-	<div>
-	<p>Starting from these art types, by employing <i>WRITE ontology</i>, this dataset structures and preserves all the data that represent the miscellaneous nature of the Chinese contemporary calligraphic phenomenon. The choice to employ the <i>Linked Open Data</i> and <i>FAIR</i> principles was made in order to bridge the data silos and to be introduced into the Knowledge Graph.</p> 
-	<p>Using LOD will also contribute to the analysis of the dataset on three different levels: <b>1)</b> artistic, <b>2)</b> linguistic and <b>3)</b> socio-political-economic. Artistic analysis deals with formal and stilistic aspects of the artworks, linguistic analysis comprises both the presence of calligraphy within the artworks as well as the critical and other texts related to the artworks, while socio-political-economic analysis offers information about clients, patrons, public response, etc.</p>
-	<p>A special place in this data model is dedicated to the so-called <b>"calli-writing" units</b>, which are the core features for the calligraphic investigation of this project (see more in the <i>model -> Calli-Writing Unit</i> section).</p>
-	<p>In this dataset documentation you can get an insight into the particularities of the WRITE ontology (see <b>ontology</b>), see how it is applied in 4 representative examples for each of the four collections (see <b>case studies</b>), and finally, view, browse and download an example dataset and the ontology (see <b>RDF data</b>).</p>
-	</div>
-  </div>
-
-  <!-- <div class="card-group mt-3">
-    <div class="card text-white bg-dark m-1" style="max-width: 18rem;">
-      <div class="card-header">documentation</a></div>
-      <div class="card-body card-body d-flex flex-column">
-        <p class="card-text">The classes and properties of the RDF model</p>
-      </div>
-    </div>
-    <div class="card text-white bg-dark m-1" style="max-width: 18rem;">
-      <div class="card-header">case studies</div>
-      <div class="card-body">
-        <p class="card-text">A representative example for each of the four collections in WRITE</p>
-      </div>
-    </div>
-    <div class="card text-white bg-dark m-1" style="max-width: 18rem;">
-      <div class="card-header">endpoint</div>
-      <div class="card-body">
-        <p class="card-text">A SPARQL service to query the KB</p>
-      </div>
-    </div>
-    <div class="card text-white bg-dark m-1" style="max-width: 18rem;">
-      <div class="card-header">queries</div>
-      <div class="card-body">
-        <p class="card-text">Relevant examples of research questions and model representativeness in natural language and SPARQL</p>
-      </div>
-    </div>
-  </div> --> 
-
-</div>
+</footer>
+</body>
+</html>

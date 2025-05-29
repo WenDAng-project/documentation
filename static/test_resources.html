@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources – WenDAng Digital Archive</title>
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../tabs.js"></script>
+</head>
+<body>
+  <header class="main-header">
+    <div class="header-left">
+      <div class="site-title"><a href="../index.html">WenDAng Digital Archive</a></div>
+    </div>
+    <nav class="header-nav desktop-only">
+      <a href="intro.html">Intro</a>
+      <a href="resources.html" class="active">Resources</a>
+      <a href="casestudies.html">Case Studies</a>
+      <a href="team.html">Team</a>
+    </nav>
+    <div id="menu-btn" class="hamburger mobile-only" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <main class="content-wrapper">
+    <div class="about-container">
+
+    <div class="tabs-buttons">
+      <button class="tab-button active" data-tab="general">Overview</button>
+      <button class="tab-button" data-tab="ontology">Ontology</button>
+      <button class="tab-button" data-tab="thesaurus">Thesaurus</button>
+    </div>
+
+    <div class="tabs-content">
+      <div class="tab-pane active about-text" id="general">
+        <!--<h3>Overview</h3>-->
+        <br>
+        <p>Chinese tradition, culture and art represent a certain challenge when it comes to the application of Digital Humanities' practices. Even though DH literature on Linked Open Data in the cultural heritage is extremly rich, we can still observe the lack of studies and publications that tackle data models used for representation of Chinese calligraphy, both artisticly and linguistically.</p>
+        <p>This ontology is designed to represent the intangible cultural heritage of Chinese calligraphy as it appears in contemporary artworks, alongside the broader tangible cultural heritage of contemporary arts. The WRITE ontology provides a structured way to describe artworks, their contextual elements, and the calligraphy integrated within them. Additionally, it facilitates the identification of similarities and differences between contemporary and traditional calligraphy, enabling a deeper understanding of their evolution and artistic connections.</p>
+      </div>
+
+      <div class="tab-pane about-text" id="ontology">
+        <!--<h2>Ontology</h2>-->
+        <br>
+        <p>This ontology is designed to represent the intangible cultural heritage of Chinese calligraphy as it appears in contemporary artworks, alongside the broader tangible cultural heritage of contemporary arts. The WRITE ontology provides a structured way to describe artworks, their contextual elements, and the calligraphy integrated within them. Additionally, it facilitates the identification of similarities and differences between contemporary and traditional calligraphy, enabling a deeper understanding of their evolution and artistic connections.</p>
+        <p>The WRITE ontology balances reuse (Wikidata classes) with new, project-specific definitions. It structures Chinese calligraphy in digital form, preserving artistic, linguistic, and cultural nuance.</p>
+        
+        <br>
+    
+      </div>
+
+      <!-- THESAURUS -->
+      <div class="tab-pane about-text" id="thesaurus">
+          <p>This is the Thesaurus tab!</p>
+        </div>
+    </div>
+  </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="footer-main">
+      <p>&copy; 2023 WenDAng. All rights reserved.</p>
+      <p>This project received funding through bando FARE Research Project <i>WenDAng - WRITE Digital Archive</i> (CINECA code: R20K7ZB983).</p>
+    </div>
+    <div class="footer-note">
+      <p>Web design and maintenance by <strong>Katarina Lučić</strong> | <a href="https://write-dataset.github.io/documentation/" target="_blank">Legacy version available here</a>.</p>
+    </div></div>
+  </footer>
+
+  <script> document.querySelectorAll('.accordion-title').forEach(title => {
+    title.addEventListener('click', () => {
+      const item = title.parentElement;
+      const toggle = title.querySelector('.toggle'); // Get the toggle (plus/minus symbol)
+      item.classList.toggle('active'); // Toggle the accordion visibility
+
+      // Toggle between plus and minus
+      if (item.classList.contains('active')) {
+        toggle.textContent = '-'; // Change to minus when expanded
+      } else {
+        toggle.textContent = '+'; // Change to plus when collapsed
+      }
+
+      // Toggle the visibility of the accordion content
+      const content = item.querySelector('.accordion-content');
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
+</body>
+</html>
