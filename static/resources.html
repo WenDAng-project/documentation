@@ -34,6 +34,7 @@
       <button class="tab-button active" data-tab="general">Overview</button>
       <button class="tab-button" data-tab="ontology">Ontology</button>
       <button class="tab-button" data-tab="thesaurus">Thesaurus</button>
+      <button class="tab-button" data-tab="dataset">Dataset</button>
     </div>
 
     <div class="tabs-content">
@@ -247,11 +248,10 @@
       <br>
 
       <div class="onto-access">
-        <h4>Access the ontology and the dataset</h4>
+        <h4>Access the ontology</h4>
         <p>The <b>WRITE ontology</b> is available <a href="https://w3id.org/write/ontology" target="blank">at this link.</a> The access page is generated using <a href="https://github.com/RDFLib/pyLODE" target="blank">pyLODE</a>.</p>
         <p>To access the ontology in RDF (serialized in Turtle), please <a href="https://raw.githubusercontent.com/WenDAng-project/ontology/refs/heads/main/writeontology_v1.0.0.ttl" target="blank">visit this page</a> or download it <a href="data/writeontology.ttl" download>here</a>.</p>
         <p>The official <b>GitHub repository</b> for the WRITE ontology can be accessed <a href="https://github.com/WenDAng-project/ontology" target="_blank">here</a>.</p>
-        <p>A limited sample of the <b>dataset</b> is available for download <a href="data/exampleWRITEdataset.n3" download>here</a> (in N3 format). This is a preliminary extract provided for demonstration purposes only. The full dataset is currently unavailable due to ongoing data entry and pending copyright permissions (the API endpoint is currently inactive (X)).</p>
       </div>
 
       <!--<h3><i>Access the ontology</i></h3>
@@ -329,9 +329,49 @@
         <p style="text-align: justify;">Please find the <b>.ttl file</b> of the first version of the WRITE thesaurus <a href="https://wendang-project.github.io/thesaurus/writeThesaurus_v.1.0.ttl" target="_blank"><b>here</b></a>.</p>
         <p style="text-align: justify;">The official <b>GitHub repository</b> for the WRITE thesaurus can be accessed <a href="https://github.com/WenDAng-project/thesaurus" target="_blank"><b>here</b></a>.</p>
         <p style="text-align: justify;"><i>*** The WRITE thesaurus is intended for reuse beyond the immediate project, particularly by communities working on East Asian art, visual culture, or domain-specific digital humanities projects. ***</i></p>
-
-        
       </div>
+
+
+  <!-- DATASET -->
+      <div class="tab-pane about-text" id="dataset">
+        <br>
+        <p style="text-align: justify;">The <b>WRITE dataset</b> brings together the research data collected by the WRITE team on new forms of contemporary Chinese calligraphy. Organised as a knowledge graph, it connects artworks from the four WRITE collections (Visual Arts, Performing Arts, Graffiti Art, and Decorative and Applied Arts) with their <b>“Calli-Writing” units</b>, people, literary works, exhibitions, series of artworks, and other contextual information. These relationships support the exploration and comparison of the artworks across artistic, linguistic and textual, and socio-political and economic dimensions.</p>
+
+        <h4>From data entry to knowledge graph</h4>
+        <p style="text-align: justify;">The WRITE domain experts entered their research data into Omeka S using resource templates configured with the ontology's classes and properties. The data were subsequently exported, cleaned, harmonised, and enriched using Python and Jupyter notebooks. This workflow included alignment with the updated WRITE ontology where necessary, normalisation of values and relationships, and links to external authority identifiers. The resulting RDF knowledge graph was validated, serialised in Turtle, and loaded into a triplestore for access through a SPARQL endpoint.</p>
+
+        <h4>Dataset overview</h4>
+        <p style="text-align: justify;">The latest version of the WRITE dataset includes <b>24,215 RDF triples</b>, including <b>315 artworks</b> and <b>320 “Calli-Writing” units</b>. The dataset is structured using the <a href="https://w3id.org/write/ontology" target="_blank" rel="noopener noreferrer">WRITE ontology</a>, which combines project-specific elements with selected classes and properties from Wikidata, while the <a href="https://w3id.org/write/thesaurus" target="_blank" rel="noopener noreferrer">WRITE thesaurus</a> provides controlled terminology for culturally specific concepts.</p>
+
+        <h4>Persistent identifiers</h4>
+        <p style="text-align: justify;">The dataset has the persistent identifier <a href="https://w3id.org/write/data" target="_blank" rel="noopener noreferrer"><code>https://w3id.org/write/data</code></a>.</p>
+        <p style="text-align: justify;">Individual records are identified using the pattern: <code>https://w3id.org/write/data/item/{id}</code></p>
+        
+        <h4>SPARQL query example</h4>
+        <p style="text-align: justify;">The following query illustrates one of the dataset's analytical uses: identifying the most frequently recorded script styles in Chinese-language “Calli-Writing” units.</p>
+        <pre style="overflow-x: auto; padding: 16px; border: 1px solid #dddddd; border-radius: 6px; background: #fafafa; font-size: 0.9rem; line-height: 1.5;">
+          <code>
+          PREFIX ns1: &lt;https://w3id.org/write/ontology#&gt;
+          PREFIX ns2: &lt;http://www.wikidata.org/prop/&gt;
+          PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+
+          SELECT ?scriptStyle (COUNT(DISTINCT ?unit) AS ?count)
+          WHERE {
+              ?unit a ns1:CalliWritingUnit ;
+                    ns2:P407 &lt;https://www.wikidata.org/entity/Q7850&gt; ;
+                    ns2:P9302 ?style .
+              ?style rdfs:label ?scriptStyle .
+          }
+          GROUP BY ?scriptStyle
+          ORDER BY DESC(?count)</code></pre>
+        
+        <h4>Access and documentation</h4>
+        <p style="text-align: justify;">The <a href="https://github.com/WenDAng-project/data" target="_blank" rel="noopener noreferrer"><b>WRITE data official GitHub repository</b></a> provides information about the dataset and its publication.</p>
+        <p style="text-align: justify;">Its <a href="https://wendang-project.github.io/data/void.ttl" target="_blank" rel="noopener noreferrer"><b>VoID description</b></a> supplies dataset-level metadata, including information about the URI scheme and vocabularies used.</p>
+        <p style="text-align: justify;">The knowledge graph can also be explored through the <a href="https://wendang.dipintra.it/en/" target="_blank" rel="noopener noreferrer"><b>WenDAng – WRITE Digital Archive</b></a>, a semantic portal developed using Sampo-UI.</p>
+      </div>
+    </div>
+    </div>
   </main>
 
   <footer class="main-footer">
